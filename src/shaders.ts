@@ -1,6 +1,5 @@
 import vertexShader from "../shaders/vertex.glsl";
 import fragmentShader from "../shaders/fragment.glsl";
-import sofaObj from '../obj/sofa.obj';
 
 export function buildShader(gl: WebGL2RenderingContext): WebGLProgram {
     const vs = gl.createShader(gl.VERTEX_SHADER)!;
